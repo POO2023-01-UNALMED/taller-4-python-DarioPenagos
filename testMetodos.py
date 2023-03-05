@@ -42,7 +42,9 @@ def testMetodosAgregarGrupo():
        str(grupo3) == "Grupo de estudiantes: Grupo 23" and grupo3.listadoAlumnos == ["Alumno30", "Alumno31", "Alumno32", "Alumno33", "Alumno34"] and\
        str(grupo4) == "Grupo de estudiantes: Grupo 12" and grupo4.listadoAlumnos == ["Jaime", "David", "Oswaldo", "Alumno40", "Alumno41", "Alumno42", "Alumno43", "Alumno44"]:
         ok = True
-    
+    print(str(grupo1))
+    print(grupo1.listadoAlumnos)
+
     assert(ok)
 
 def testMetodosListadoGrupo():
