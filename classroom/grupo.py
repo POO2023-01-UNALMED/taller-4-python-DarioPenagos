@@ -13,8 +13,8 @@ class Grupo:
             self._asignaturas.append(Asignatura(x))
 
     def agregarAlumno(self, alumno, lista=[]):
-        lista.append(alumno)
-        self.listadoAlumnos = self.listadoAlumnos + lista
+        ##lista.append(alumno)
+        self.listadoAlumnos = self.listadoAlumnos + lista + [alumno]
         alumno = None
         lista = []
         print(self.listadoAlumnos)
